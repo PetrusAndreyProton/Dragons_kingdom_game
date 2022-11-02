@@ -1,4 +1,4 @@
-# this is dragon kingdom game
+# This is dragon kingdom game
 import random
 import time
 
@@ -21,6 +21,7 @@ def chooseCave():
     return cave
 
 
+# Adding intrigue to the game
 def checkCave(chosenCave):
     print('You are approaching a cave...')
     time.sleep(2)
@@ -44,5 +45,5 @@ while playAgain == 'yes' or playAgain == 'y':
     caveNumber = chooseCave()
     checkCave(caveNumber)
 
-    print('Try your luck again? (Yes or no)')
+    print('Try your luck again? (Yes or No)')
     playAgain = input()
